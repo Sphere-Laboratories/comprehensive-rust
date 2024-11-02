@@ -2337,7 +2337,7 @@ msgstr "Блоки кода в этом курсе полностью интер
 
 #: src/cargo/code-samples.md src/cargo/running-locally.md
 msgid "\"Edit me!\""
-msgstr ""
+msgstr "\"Отредактируй меня!\""
 
 #: src/cargo/code-samples.md
 msgid "You can use "
@@ -2396,7 +2396,7 @@ msgstr ""
 msgid ""
 "You can use any later version too since Rust maintains backwards "
 "compatibility."
-msgstr ""
+msgstr "Вы можете использовать любую более позднюю версию, поскольку Rust поддерживает обратную совместимость."
 
 #: src/cargo/running-locally.md
 msgid ""
@@ -2492,19 +2492,19 @@ msgstr ""
 
 #: src/welcome-day-1.md
 msgid "Types and type inference."
-msgstr ""
+msgstr "Типы и вывод типов."
 
 #: src/welcome-day-1.md
 msgid "Control flow constructs: loops, conditionals, and so on."
-msgstr ""
+msgstr "Конструкции потока управления: циклы, условные операторы и т.д."
 
 #: src/welcome-day-1.md
 msgid "User-defined types: structs and enums."
-msgstr ""
+msgstr "Пользовательские типы: структуры и перечисления."
 
 #: src/welcome-day-1.md
 msgid "Pattern matching: destructuring enums, structs, and arrays."
-msgstr ""
+msgstr "Сопоставление с образцом: деструктурирование перечислений, структур и массивов."
 
 #: src/welcome-day-1.md src/welcome-day-2.md src/welcome-day-3.md
 #: src/welcome-day-4.md src/concurrency/welcome.md
@@ -2595,7 +2595,9 @@ msgid ""
 "The idea for the first day is to show the \"basic\" things in Rust that "
 "should have immediate parallels in other languages. The more advanced parts "
 "of Rust come on the subsequent days."
-msgstr ""
+msgstr "Идея первого дня — показать \"базовые\" вещи в Rust, которые "
+"должны иметь непосредственные параллели в других языках. Более продвинутые части "
+"Rust будут в последующие дни."
 
 #: src/welcome-day-1.md
 msgid ""
@@ -2604,7 +2606,11 @@ msgid ""
 "followed by a break. Plan to cover the exercise solution after the break. "
 "The times listed here are a suggestion in order to keep the course on "
 "schedule. Feel free to be flexible and adjust as necessary!"
-msgstr ""
+msgstr "Если вы преподаете это в классе, это хорошее место, чтобы просмотреть "
+"расписание. Обратите внимание, что в конце каждого сегмента есть упражнение, "
+"за которым следует перерыв. Планируйте рассмотреть решение упражнения после перерыва. "
+"Время, указанное здесь, является предложением, чтобы курс "
+"соблюдал расписание. Не стесняйтесь проявлять гибкость и корректировать его по мере необходимости!"
 
 #: src/hello-world.md src/types-and-values.md src/control-flow-basics.md
 #: src/tuples-and-arrays.md src/references.md src/user-defined-types.md
@@ -2622,15 +2628,15 @@ msgstr "В этом сегменте:"
 
 #: src/hello-world.md
 msgid "[What is Rust?](./hello-world/what-is-rust.md) (10 minutes)"
-msgstr ""
+msgstr "[Что такое Rust?](./hello-world/what-is-rust.md) (10 минут)"
 
 #: src/hello-world.md
 msgid "[Benefits of Rust](./hello-world/benefits.md) (3 minutes)"
-msgstr ""
+msgstr "[Преимущества Rust](./hello-world/benefits.md) (3 минуты)"
 
 #: src/hello-world.md
 msgid "[Playground](./hello-world/playground.md) (2 minutes)"
-msgstr ""
+msgstr "[Игровая площадка](./hello-world/playground.md) (2 минуты)"
 
 #: src/hello-world.md src/concurrency/send-sync.md
 msgid "This segment should take about 15 minutes"
@@ -2867,6 +2873,8 @@ msgid ""
 "Under \"Tools\", use the `rustfmt` option to format your code in the "
 "\"standard\" way."
 msgstr ""
+"В разделе \"Инструменты\" используйте опцию `rustfmt`, чтобы отформатировать код "
+"\"стандартным\" способом."
 
 #: src/hello-world/playground.md
 msgid ""
@@ -2880,6 +2888,8 @@ msgid ""
 "If you're interested, use \"ASM\" under \"...\" to see the generated "
 "assembly code."
 msgstr ""
+"Если вам интересно, используйте \"ASM\" в \"...\", чтобы увидеть сгенерированный "
+"ассемблерный код."
 
 #: src/hello-world/playground.md
 msgid ""
@@ -3047,6 +3057,8 @@ msgid ""
 "Here are some basic built-in types, and the syntax for literal values of "
 "each type."
 msgstr ""
+"Вот некоторые основные встроенные типы и синтаксис для литеральных значений "
+"каждого типа."
 
 #: src/types-and-values/values.md src/unsafe-rust/exercise.md
 msgid "Types"
@@ -3250,6 +3262,9 @@ msgid ""
 "number is calculated recursively as the sum of the n-1'th and n-2'th "
 "Fibonacci numbers."
 msgstr ""
+"Последовательность Фибоначчи начинается с `[0,1]`. При n>1 n-е число Фибоначчи "
+"вычисляется рекурсивно как сумма n-1-го и n-2-го "
+"чисел Фибоначчи."
 
 #: src/types-and-values/exercise.md
 msgid ""
@@ -3259,15 +3274,15 @@ msgstr ""
 
 #: src/types-and-values/exercise.md
 msgid "// The base case.\n"
-msgstr ""
+msgstr "// Базовый случай.\n"
 
 #: src/types-and-values/exercise.md src/control-flow-basics/exercise.md
 msgid "\"Implement this\""
-msgstr ""
+msgstr "\"Реализовать это\""
 
 #: src/types-and-values/exercise.md
 msgid "// The recursive case.\n"
-msgstr ""
+msgstr "// Рекурсивный случай.\n"
 
 #: src/types-and-values/exercise.md src/types-and-values/solution.md
 msgid "\"fib({n}) = {}\""
